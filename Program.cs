@@ -17,7 +17,7 @@ namespace SkyNeb_Socket.io
                 Console.WriteLine("connected...");
             });
 
-            socket.On("symbols", (data) =>
+            socket.On("channelname", (data) =>
             {
                 Console.WriteLine(data);
             });
