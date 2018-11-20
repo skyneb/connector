@@ -4,7 +4,7 @@ SkyNeb / Oasis Financial Network RealTime Price Feeder Connector
 
 See also: [EngineIoClientDotNet](https://github.com/Quobject/EngineIoClientDotNet)
 
-## Installation
+## For Installation (Recommended Component)
 [Nuget install](https://www.nuget.org/packages/SocketIoClientDotNet/):
 ```
 Install-Package SocketIoClientDotNet
@@ -12,7 +12,7 @@ Install-Package SocketIoClientDotNet
 
 
 
-## Skyneb Connector
+## Skyneb Connector Example Code (C#)
 
 ```cs
 using System;
