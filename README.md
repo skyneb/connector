@@ -54,3 +54,23 @@ socket.on("channelname",function (data){
 }); 
 </script>
 ```
+
+## Skyneb Connector Example Code (JS) - Server Side with socket.io-client
+
+```js
+const
+io = require("socket.io-client"),
+ioClient = io.connect("wss://serviceaddress:portnumber", { transports: ['websocket'], rejectUnauthorized: false });
+ioClient.on("channelname", (msg) => console.info(msg));
+```
+
+## For Installation (socket.io-client)
+for use "socket.io-client" in server side you have to install "socket.io-client" with npm.
+
+```
+npm install socket.io-client --save
+```
+
+
+
+
